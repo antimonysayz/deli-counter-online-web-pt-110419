@@ -16,5 +16,6 @@ end
 
  def take_a_number(array, name)
    array << "#{name}"
-   puts "Welcome #{name}. You are currently number #{"
+   position = array.index(name)
+   puts "Welcome #{name}. You are currently number #{position}"
  end
