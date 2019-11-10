@@ -19,3 +19,5 @@ end
    position = array.index(name)
    puts "Welcome, #{name}. You are number #{position + 1} in line."
  end
+ 
+ def now_serving()
