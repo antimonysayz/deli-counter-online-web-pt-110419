@@ -20,4 +20,6 @@ end
    puts "Welcome, #{name}. You are number #{position + 1} in line."
  end
  
- def now_serving()
+ def now_serving(array)
+   puts "Currently serving #{array[0]}."
+ end
